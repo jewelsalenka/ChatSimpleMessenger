@@ -117,6 +117,7 @@ public class ChatActivity extends Activity{
         String eol = System.getProperty("line.separator");
         inputBox.setText(m.getMessage() + eol + eol + "Send: " + m.getStringDate());
         mContainer.addView(layout);
+        updateScrollView();
     }
 
     private void addInputBox(Message m) {
