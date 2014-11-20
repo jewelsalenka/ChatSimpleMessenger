@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/input_box_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/input_box"
+              android:layout_marginRight="@dimen/box_margin"
+              android:layout_marginLeft="@dimen/box_margin_others"
+              android:layout_marginBottom="@dimen/box_margin_others"
+              android:layout_marginTop="@dimen/box_margin_others"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/black"
+              android:background="@drawable/blue"/>
+
+</RelativeLayout>

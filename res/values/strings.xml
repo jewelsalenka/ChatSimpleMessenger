@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestChat</string>
+    <string name="hint_edit_text">Input text...</string>
+    <string name="button_send">Send</string>
+    <string-array name="stub_messages">
+        <item>Hello! #One_good_and_happy_tag</item>
+        <item>How are you?</item>
+        <item>Have a good day:)</item>
+        <item>ASAP #awesome_app</item>
+        <item>May happy times \n and \n warm memories \n brighten your New Year.</item>
+        <item>Remove the intent-filter from the xml and do only the dynamic registration of the Receiver. #awesome_app</item>
+        <item>#awesome_app "Replace a semicolon (;) with a greek question mark (;) in your friend's JavaScript and watch them pull their hair out" #awesome_app</item>
+        <item>"Programming is the art of doing one thing at a time" - \n Michael C. Feathers</item>
+        <item>#awesome_app "A good plan executed today always beats a perfect plan executed tomorrow" - George Patton</item>
+        <item>Developer comments: always what, never why</item>
+        <item>"Research is what I'm doing when #awesome_app I don't know what I'm doing" - Wernher von Braun</item>
+    </string-array>
+</resources>

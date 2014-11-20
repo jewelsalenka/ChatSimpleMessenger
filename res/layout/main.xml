@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#E2E5E3">
+
+
+    <LinearLayout android:id="@+id/text_area"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="horizontal"
+                  android:background="#D6D6D6">
+
+        <EditText android:id="@+id/output_message"
+                  android:layout_width="@dimen/empty_width"
+                  android:layout_height="wrap_content"
+                  android:minHeight="@dimen/edit_text_height"
+                  android:layout_weight="3"
+                  android:layout_marginTop="@dimen/bottom_panel_margin"
+                  android:layout_marginBottom="@dimen/bottom_panel_margin"
+                  android:layout_marginLeft="@dimen/bottom_panel_margin"
+                  android:layout_marginRight="@dimen/bottom_panel_margin"
+                  android:hint="@string/hint_edit_text"
+                />
+
+        <Button android:id="@+id/send_button"
+                android:layout_width="@dimen/empty_width"
+                android:layout_height="@dimen/send_button_height"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/button_send"
+                android:layout_marginLeft="@dimen/bottom_panel_margin"
+                android:layout_marginRight="@dimen/bottom_panel_margin"
+                />
+
+    </LinearLayout>
+
+    <ScrollView android:id="@+id/message_scroll_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:fillViewport="true"
+                android:layout_above="@id/text_area"
+            >
+
+        <LinearLayout android:id="@+id/container"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:gravity="bottom"
+                      android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>
+
